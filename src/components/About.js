@@ -9,8 +9,8 @@ const About = () => {
   const [state] = React.useState([
     { id: 1, title: "Name:", text: "John Doe" },
     { id: 2, title: "Email:", text: "example@example.com" },
-    { id: 3, title: "Github:", text: <a href='https://github.com/'>/johndoe</a> },
-    { id: 4, title: "Linkedin:", text: <a href='https://linkedin.com/'>/johndoe</a> },
+    { id: 3, title: "Github:", text: <a href='https://github.com/' target="_blank">/johndoe</a> },
+    { id: 4, title: "Linkedin:", text: <a href='https://linkedin.com/' target="_blank">/johndoe</a> },
   ]);
 
   return (

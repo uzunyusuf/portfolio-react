@@ -31,16 +31,16 @@ const Contact = () => {
               </p>
               <ul className="contactCircles">
                 <li>
-                  <FaFacebookF className="contactIcon" />
+                  <a href="https://tr-tr.facebook.com/" target="_blank"><FaFacebookF className="contactIcon" /></a>
                 </li>
                 <li>
-                  <FaTwitter className="contactIcon" />
+                  <a href="https://twitter.com/" target="_blank"><FaTwitter className="contactIcon" /></a>
                 </li>
                 <li>
-                  <FaGithub className="contactIcon" />
+                  <a href="https://github.com" target="_blank"><FaGithub className="contactIcon" /></a>
                 </li>
                 <li>
-                  <FaLinkedinIn className="contactIcon" />
+                  <a href="https://linkedin.com" target="_blank"><FaLinkedinIn className="contactIcon" /></a>
                 </li>
               </ul>
             </div>

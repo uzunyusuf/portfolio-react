@@ -292,6 +292,9 @@ body {
 .contactCircles li:hover {
   background: #ff4a57;
 }
+.contactIcon {
+  color: #fff;
+}
 .col-6 p a {
   text-decoration: none;
   color: #fff;
