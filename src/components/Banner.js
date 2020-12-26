@@ -13,7 +13,7 @@ const Banner = () => {
     text: ' i am John, professional web developer with long time experience in this field'
   })
   return (
-    <header className="header" >
+    <header id='header' className="header" >
       <div className="container">
         <div className="row">
           <div className="col-6">

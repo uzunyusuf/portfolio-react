@@ -13,7 +13,7 @@ const Contact = () => {
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
   });
   return (
-    <div className="contact">
+    <div id='contact' className="contact">
       <div className="container">
         <div className="contactSection">
           <div className="common">

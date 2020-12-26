@@ -61,7 +61,7 @@ const Services = () => {
   ]);
 
   return (
-    <div className="services">
+    <div id='services' className="services">
       <div className="container">
         <div className="services__header">
           <div className="common">
