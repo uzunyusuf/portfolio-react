@@ -57,6 +57,12 @@ body {
 .bgMain {
   background: #1f2235;
 }
+.h-650 {
+  height: 650px;
+}
+.alignCenter {
+  align-items: center;
+}
 
 /* Grid System */
 .row {
@@ -152,7 +158,7 @@ body {
 .common {
   width: 33.33333333333%;
   margin: 20px auto;
-  text-align: center; 
+  text-align: center;
 }
 .heading {
   margin-bottom: 20px;
@@ -163,7 +169,7 @@ body {
 .mainHeader {
   font-size: 32px;
   margin-bottom: 20px;
-  
+  color: #fff;
 }
 .mainContent {
   font-size: 16px;
@@ -173,7 +179,7 @@ body {
   background: #ff4a57;
   height: 3px;
   width: 120px;
-  margin: 30px auto; 
+  margin: 30px auto;
 }
 .services__box {
   padding: 40px;
@@ -185,7 +191,6 @@ body {
   font-size: 40px;
   color: #ff4a57;
   margin-bottom: 15px;
-  
 }
 .services__box-header {
   font-size: 20px;
@@ -195,4 +200,43 @@ body {
 .services__box-p {
   font-size: 16px;
   color: #dfdfdf;
+}
+
+.about {
+  width: 100%;
+  background: #23263a;
+  padding: 100px 0;
+}
+.about__img {
+  padding: 30px;
+}
+.about__img img {
+  height: 400px;
+  width: 400px;
+  border-radius: 6px;
+}
+.about__info {
+  color: #fff;
+}
+.about__info h1 {
+  margin-bottom: 30px;
+}
+.about__info-p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.about__info-p2 {
+  font-size: 14px;
+}
+.info__contacts {
+  margin-top: 20px;
+}
+.info__contacts strong {
+  color: #ff4a57;
+}
+.info__contacts p {
+  margin-top: 3px;
+}
+.info__contacts .col-6 {
+  margin: 15px 0;
 }

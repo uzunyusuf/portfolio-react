@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
+import About from "./components/About";
 import Banner from "./components/Banner";
 import Nav from "./components/Nav";
-import Services from './components/Services'
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Banner />
       <Nav />
       <Services />
+      <About />
     </div>
   );
 }
