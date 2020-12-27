@@ -24,7 +24,7 @@ const Contact = () => {
           <div className="row justifyCenter">
             <div className="col-6">
               <div className="contactSection-logo">
-                <img src="/images/logo.png" alt="" />
+                <p>Portfo<span>lio.</span></p>
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

@@ -9,7 +9,7 @@ const Nav = () => {
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__left-logo">
-              <img src="/images/bg.jpg" alt="" />
+              <p>Portfo<span>lio.</span></p>
             </div>
           </ul>
           {state ? (<ul className="navbar__right">

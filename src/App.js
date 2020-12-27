@@ -4,6 +4,7 @@ import About from "./components/About";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
 import Nav from "./components/Nav";
+import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Nav />
       <Services />
       <About />
+      <Portfolio />
       <Contact />
     </div>
   );
