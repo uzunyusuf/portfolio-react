@@ -11,5 +11,4 @@ export default styled.div`
   margin: 15px;
   font-size: 15px;
   
-
 `;
