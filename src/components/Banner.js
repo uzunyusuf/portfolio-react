@@ -40,9 +40,6 @@ const Banner = () => {
                     My Portfolio
                   </a>
                   &nbsp;&nbsp;&nbsp;
-                  <a href="" className="btn btn-smart">
-                    <FaPlay className="play" />
-                  </a>
                 </div>
               </div>
             </div>

@@ -22,12 +22,12 @@ const About = () => {
           <div className="commonBorder"></div>
         </div>
         <div className="row h-650 alignCenter">
-          <div className="col-6">
+          <div className="col-6 left">
             <div className="about__img">
               <img src="https://thispersondoesnotexist.com/image" alt="" />
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-6 right">
             <div className="about__info">
               <h1>Hi There</h1>
               <div className="about__info-p">

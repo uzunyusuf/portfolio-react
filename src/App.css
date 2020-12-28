@@ -438,4 +438,48 @@ body {
   .contactSection-logo {
     display: none;
   }
+  .contactSection p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header {
+    width: 100%;
+    padding: 0 50px;
+  }
+  .container {
+    width: 100%;
+    padding: 0 50px;
+  }
+  .navbar__container {
+    width: 100%;
+    padding: 0 50px;
+  }
+}
+@media (max-width: 1022px) {
+  .header__section h1 {
+    font-size: 50px;
+  }
+  .col-4 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .row {
+    height: auto;
+  }
+  .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .contactSection p {
+    text-align: center;
+  }
 }

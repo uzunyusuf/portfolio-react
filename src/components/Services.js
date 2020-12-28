@@ -23,13 +23,13 @@ const Services = () => {
       text:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
     },
-    {
-      id: 2,
-      icon: <FaCamera className="commonIcons" />,
-      heading: "Photography",
-      text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
-    },
+    // {
+    //   id: 2,
+    //   icon: <FaCamera className="commonIcons" />,
+    //   heading: "Photography",
+    //   text:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
+    // },
     {
       id: 3,
       icon: <FaCircleNotch className="commonIcons" />,
@@ -44,20 +44,20 @@ const Services = () => {
       text:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
     },
-    {
-      id: 5,
-      icon: <FaFileVideo className="commonIcons" />,
-      heading: "Video Editing",
-      text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
-    },
-    {
-      id: 5,
-      icon: <FaSearchDollar className="commonIcons" />,
-      heading: "SEO Expert",
-      text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
-    },
+    // {
+    //   id: 5,
+    //   icon: <FaFileVideo className="commonIcons" />,
+    //   heading: "Video Editing",
+    //   text:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
+    // },
+    // {
+    //   id: 5,
+    //   icon: <FaSearchDollar className="commonIcons" />,
+    //   heading: "SEO Expert",
+    //   text:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
+    // },
   ]);
 
   return (
