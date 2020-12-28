@@ -144,13 +144,15 @@ export default class Portfolio extends Component {
         id: 3,
         title: "Dice Games",
         text:
-          "When you press the button, dice rolls randomly and generate a winner (or draw).",
+          "Dice rolls randomly and generate a winner (or draw).",
+        imgURL: 'https://i.ibb.co/5LsfhpJ/analogclock.png',
       },
       {
         id: 4,
         title: "Change Color",
         text:
-          "Your web page background color will be changed randomly when you clicked button on the page.",
+          "Background color will be changed randomly when you clicked button.",
+        imgURL: 'https://i.ibb.co/5LsfhpJ/analogclock.png',
       },
     ],
     header: {
@@ -165,7 +167,7 @@ export default class Portfolio extends Component {
   render() {
     const { items, header, portfolio } = this.state;
     return (
-      <div id="services" className="services">
+      <div id="portfolio" className="services">
         <div className="container">
           <div className="services__header">
             <div className="common">
@@ -177,19 +179,28 @@ export default class Portfolio extends Component {
           <div className="portfolio1">
             <Carousel breakPoints={breakPoints}>
               {portfolio.map((item) => (
-                <Item  >
-
-                  <div key={item.id} className='imgimg'>
+                <Item>
+                  {/* <div key={item.id} >
                     <img src={item.imgURL} alt="" />
-
+                    <p>{item.title}</p>
+                  </div> */}
+                  <div className="card">
+                    <div className="box">
+                      <a href="https://uzunyusuf.github.io/change-color/">
+                        <img src={item.imgURL} alt="" />
+                      </a>
+                      <div className="text">{item.title}</div>
+                      <p>
+                        {item.text}
+                      </p>
+                    </div>
                   </div>
-                  <p>{item.title}</p>
                 </Item>
               ))}
             </Carousel>
           </div>
         </div>
       </div>
-    )
+    );
   }
 }

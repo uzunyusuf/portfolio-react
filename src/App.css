@@ -331,15 +331,54 @@ body {
   outline: none;
   box-shadow: inset 0 0 1px 0px violet;
 }
+
 .portfolio1 img {
   display: flex;
-  width: auto;
+  width: 100%;
   height: 250px;
+  pointer-events: none; /* The element does not react to pointer events */
 }
-.imgimg img {
+
+.card {
+  background: #1f2235;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
 }
-.portfolio1 p {
-  padding-top: 220px;
+.card:hover {
+  background: #ff4a57;
+}
+.card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+  justify-content: center;
+}
+.card:hover .box {
+  transform: scale(1.05);
+}
+
+.card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.card img {
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  border: 5px solid #ff4a57;
+}
+.card:hover img {
+  border-color: #fff;
+}
+.card p {
+  font-size: 14px;
 }
 @media (max-width: 765px) {
   .container {

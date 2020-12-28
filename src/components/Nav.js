@@ -26,7 +26,7 @@ const Nav = () => {
               <a href="">Skills</a>
             </li>
             <li>
-              <a href="">Portfolio</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
