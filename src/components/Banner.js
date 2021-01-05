@@ -36,7 +36,7 @@ const Banner = () => {
                 <h1>{state.title}</h1>
                 <p>{state.text}</p>
                 <div className="header__buttons">
-                  <a href="" className="btn btn-outline">
+                  <a href="#portfolio" className="btn btn-outline">
                     My Portfolio
                   </a>
                   &nbsp;&nbsp;&nbsp;
