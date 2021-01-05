@@ -6,22 +6,43 @@ import {
   FaApple,
   FaSearchDollar,
   FaFileVideo,
+  FaCode,
+  FaDatabase,
+  FaReact,
+  FaNodeJs,
+  FaBootstrap,
+  FaCss3,
+  FaSass,
+  FaAngular,
+  FaVuejs,
+  FaDocker,
+
 } from "react-icons/fa";
+import { SiMongodb, SiJavascript, SiHtml5 } from 'react-icons/si'
+import { DiScrum } from 'react-icons/di'
 
 const Services = () => {
   const [header] = React.useState({
-    mainHeader: "SERVICES",
-    subHeading: "My Services",
+    subHeading: "Services",
     text:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam libero cumque vel, quas dicta ipsum.",
+      "My services and skills",
   });
   const [state] = React.useState([
     {
       id: 1,
-      icon: <FaGithub className="commonIcons" />,
-      heading: "Web Development",
+      icon: <FaCode className="commonIcons" />,
+      heading: "Front-end Developer",
       text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
+        "“If you think math is hard, try web design.” – Trish Parr",
+      headingtwo: 'Languages:',
+      language: <ul><li><SiHtml5 /> HTML</li>
+        <li><FaCss3 /> CSS</li>
+        <li><FaSass /> SASS</li></ul>,
+      headingthree: 'Dev Tools:',
+      devtools: <ul><li> <FaBootstrap /> Bootstrap</li>
+        <li>S Semantic UI</li>
+
+      </ul>,
     },
     // {
     //   id: 2,
@@ -32,18 +53,30 @@ const Services = () => {
     // },
     {
       id: 3,
-      icon: <FaCircleNotch className="commonIcons" />,
-      heading: "Web Design",
+      icon: <FaDatabase className="commonIcons" />,
+      heading: "Back-end Developer",
       text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
+        "“Talk is cheap. Show me the code.” – Linus Torvalds",
+      headingtwo: 'Languages:',
+      language: <p><SiJavascript /> Javascript, ES6</p>,
+      headingthree: 'Dev Tools:',
+      devtools: <ul><li> <FaReact /> React</li>
+        <li> <FaAngular /> Angular</li>
+        <li> <FaVuejs /> Vue</li>
+        <li> <FaNodeJs /> Node.js, NPM</li>
+        <li> <SiMongodb /> MongoDB</li>
+        <li> <FaDocker /> Docker</li>
+        <li> <FaGithub /> Git, Github</li>
+        <li> <DiScrum /> Scrum, Agile</li>
+      </ul>,
     },
-    {
-      id: 4,
-      icon: <FaApple className="commonIcons" />,
-      heading: "App Development",
-      text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
-    },
+    // {
+    //   id: 4,
+    //   icon: <FaApple className="commonIcons" />,
+    //   heading: "App Development",
+    //   text:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
+    // },
     // {
     //   id: 5,
     //   icon: <FaFileVideo className="commonIcons" />,
@@ -78,6 +111,10 @@ const Services = () => {
                   {info.icon}
                   <div className="services__box-header">{info.heading}</div>
                   <div className="services__box-p">{info.text}</div>
+                  <div className="services__box-header">{info.headingtwo}</div>
+                  <div className="services__box-p">{info.language}</div>
+                  <div className="services__box-header">{info.headingthree}</div>
+                  <div className="services__box-p">{info.devtools}</div>
                 </div>
               </div>
             ))}
