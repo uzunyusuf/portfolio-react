@@ -10,7 +10,7 @@ import {
 const Banner = () => {
   const [state] = React.useState({
     title: 'I am John Doe',
-    text: ' i am John, professional web developer with long time experience in this field'
+    text: ' i am John, professional web developer with +2 years experience in this field'
   })
   return (
     <header id='header' className="header" >

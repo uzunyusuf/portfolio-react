@@ -137,29 +137,43 @@ export default class Portfolio extends Component {
       },
       {
         id: 2,
+        title: "Todo List",
+        text: "This JavaScript Project is to wire up a todo list application.",
+        imgURL: 'https://i.ibb.co/xKnCNHG/todolisti.png',
+      },
+      {
+        id: 2,
         title: "Drum Kit",
         text: "This is a drum kit application for childs.",
-        imgURL: 'https://i.ibb.co/5LsfhpJ/analogclock.png',
+        imgURL: 'https://i.ibb.co/QjQsBqg/drumkit.jpg',
       },
       {
         id: 3,
         title: "Dice Games",
         text:
           "Dice rolls randomly and generate a winner (or draw).",
-        imgURL: 'https://i.ibb.co/5LsfhpJ/analogclock.png',
+        imgURL: 'https://i.ibb.co/86VHhL0/dice-games.png',
       },
       {
         id: 4,
         title: "Change Color",
         text:
           "Background color will be changed randomly when you clicked button.",
-        imgURL: 'https://i.ibb.co/5LsfhpJ/analogclock.png',
+        imgURL: 'https://i.ibb.co/DGw94gJ/changecolor.jpg',
       },
+      {
+        id: 5,
+        title: "Forkify",
+        text:
+          "I built a recipe page.",
+        imgURL: 'https://i.ibb.co/xzdtFrh/forkify.jpg',
+      },
+
     ],
     header: {
-      subHeader: "Portfolio",
+      subHeader: "My Portfolio",
       text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore."
+        "What did I?"
       ,
     }
 
@@ -187,7 +201,7 @@ export default class Portfolio extends Component {
                   </div> */}
                   <div className="card">
                     <div className="box">
-                      <a href="https://uzunyusuf.github.io/change-color/">
+                      <a href="">
                         <img src={item.imgURL} alt="" />
                       </a>
                       <div className="text">{item.title}</div>

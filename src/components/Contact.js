@@ -10,7 +10,7 @@ const Contact = () => {
   const [header] = React.useState({
     subHeader: "Contact Me",
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
+      "How can I help you?",
   });
   return (
     <div id='contact' className="contact">

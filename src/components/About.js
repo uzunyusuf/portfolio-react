@@ -4,11 +4,11 @@ const About = () => {
   const [header] = React.useState({
     subHeader: "About Me",
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
+      "Who am I?",
   });
   const [state] = React.useState([
     { id: 1, title: "Name:", text: "John Doe" },
-    { id: 2, title: "Email:", text: "example@example.com" },
+    { id: 2, title: "Email:", text: "john@doe.com" },
     { id: 3, title: "Github:", text: <a href='https://github.com/' target="_blank">/johndoe</a> },
     { id: 4, title: "Linkedin:", text: <a href='https://linkedin.com/' target="_blank">/johndoe</a> },
   ]);
@@ -31,14 +31,11 @@ const About = () => {
             <div className="about__info">
               <h1>Hi There</h1>
               <div className="about__info-p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                dignissimos voluptas, voluptatem eum blanditiis aliquid. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Expedita,
-                aspernatur!
+                I am a full stack developer, lived in Istanbul, Turkey. I am hard working and passionate towards my work.
+                My favorite thing is to improve myself everyday.
               </div>
               <div className="about__info-p2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita, aspernatur!
+                I like to read history, economy and novel books.
               </div>
               <div className="info__contacts">
                 <div className="row">
