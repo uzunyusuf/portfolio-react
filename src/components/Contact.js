@@ -27,7 +27,8 @@ const Contact = () => {
                 <p>Portfo<span>lio.</span></p>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                You can reach me through these channels. <br />
+                Istanbul, Turkey
               </p>
               <ul className="contactCircles">
                 <li>
